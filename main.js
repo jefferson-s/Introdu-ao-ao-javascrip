@@ -1,7 +1,62 @@
 
+function funcaochange(elemento){
+    console.log(elemento.value);
+}
 
+function load(){
+    alert("página carregada");
+}
+function clicou(){
+    document.getElementById("agradecimento").innerHTML= "<b>Obrigado por clicar</b>";
+    //console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado por clicar");
+}
+function redirecionar(){
+    window.open("https://globallabs.academy/");
+    //window.location.href = "https://instagram.com.br";
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    //document.getElementById("mousemove").innerHTML =  "Obrigado por passar o mouse";
+    //alert ("Trocar texto");
+}
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse";
+    //document.getElementById("mousemove").innerHTML =  "Passe o mouse aqui";
+    //alert ("Trocar texto");
+}
+
+/*
+function soma (n1, n2){
+    return n1 + n2;
+}
+alert(soma(5,10));
+
+/*
+function validaidade (idade){
+    var validar;
+    if (idade >= 18){
+        validar = true
+    }else{
+        validar = false
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade");
+console.log(validaidade(idade));
+
+/*
+function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome)
+}
+
+alert(setReplace("Vai Japão", "Japão", "Brasil"));
+/*
 var d = new Date();
-    alert(d.getTimezoneOffset());
+    alert(d.getDate()"/"+ d.getMonth()++);
+*/
 
 /*
 var count;
